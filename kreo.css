@@ -1,0 +1,242 @@
+body{
+	margin: 0;
+	background: #171716;
+}
+header{
+	background: url(images/portfolio/underwater.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.header_menu{
+	display: flex;
+	margin-left: 200px;
+	position: fixed;
+
+}
+.head_logo{
+	 background-color: orange;
+}
+.head_logo h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px;
+}
+.menu{
+	display: flex;
+
+}
+.menu li{
+	list-style-type: none;
+	padding: 20px;
+	text-align: center;
+}
+.menu a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+.menu a:hover{
+	color: orange;
+	width: ;
+}
+.header_btn{
+	display: none;
+	height: 30px;
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 30px;
+	background: black;
+	color: white;
+	border: none;
+
+}
+
+@media screen and (max-width: 750px){
+	.header_menu{
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+	.menu{
+	display: flex;
+	flex-direction: column;
+
+	}
+	.menu li{
+		text-align: left;
+		border-top: 1px solid gray;
+	}
+	.header_btn{
+	display: block;}
+
+	.head_logo{
+		display: flex;
+		justify-content: space-between;
+	}
+	
+}
+.header_text {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  color: white;
+  font-size: 25px;
+}
+
+.container_works{
+	width: 90%;
+	margin: 0 auto;
+}
+.container_head{
+	
+}
+
+.container_head h1 {
+	color: white;
+
+}
+
+.container_head p{
+	color: #454543;
+	max-width: 80%;
+	font-size: 23px;
+	line-height: 1.5;
+}
+.container_head div{
+	width: 80px;
+	height: 3px;
+	background: #595954;
+}
+.container_head div:hover{
+	width: 100px;
+	height: 4px;
+	background:orange;
+}
+
+
+/*----------------------------*/
+.container_grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.container_grid img{
+	width: 100%;
+
+
+}
+
+.container_grid img: hover{
+opacity: 2;
+}
+
+.container_service{
+	margin-top: 50px;
+	margin: 0 auto;
+	width: 90%;
+
+}
+
+.service{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 2%;
+}
+.service_block{
+	width: 100%;
+	padding-left:15px;
+}
+.service_block:hover{
+	background: black;
+}
+.service_block h1{
+	color: orange;
+	font-weight: bold;
+}
+
+.service_block p{
+	color: #454543;
+	font-size: 20px;
+	line-height: 1.5;
+
+}
+
+.container_about{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.about{
+	padding: 5px;
+}
+.about:hover{
+	background: black;
+}
+.about h1{
+	color: orange;
+	
+}
+.about p{
+	color:#454543;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.container_person{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.person img{
+	width: 100%;
+}
+.person h3{
+	color: orange;
+}
+.pr_tex{
+	color: white;
+}
+.person p{
+	color: #454543;
+	line-height: 1.5;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
